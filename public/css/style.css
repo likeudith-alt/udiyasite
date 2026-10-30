@@ -121,7 +121,7 @@ body::before{background:radial-gradient(ellipse at 18% 18%,color-mix(in srgb,var
 .fl-status.done{color:var(--g);border-color:var(--g)}
 .fl-empty{border:1px dashed var(--line);padding:18px;color:var(--muted)}
 
-/* GAMEZONE purple top-up theme */
+/* UDITH STORE purple top-up theme */
 :root{--bg:#080018;--panel:#100528;--line:#5520a0;--text:#f7f2ff;--muted:#bba8d5;--g:#d000ff;--c:#782cff;--r:#ff557c;--on-g:#fff}
 body{font-family:Inter,system-ui,Arial,sans-serif;background:#080018;background-image:radial-gradient(ellipse at 50% 0,#24004b 0,transparent 45%),linear-gradient(180deg,#080018,#050010)}
 body::before{background:radial-gradient(ellipse at 50% 0,transparent 5%,#080018 80%)}
