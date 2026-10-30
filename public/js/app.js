@@ -110,9 +110,9 @@ function renderHome() {
   document.title = s.storeName + " | Free Fire Likes, Glory Bots, FF SENSI & IDs";
   $("hTitle").innerHTML = `<b>${esc(first)}</b> ${esc(parts.join(" "))}`;
   $("hText").textContent = s.heroText;
-  $("logo").innerHTML = esc(first.toUpperCase()) + (parts.length ? `<span>_${esc(parts.join("_").toUpperCase())}</span>` : "");
+  $("logo").innerHTML = esc(first.toUpperCase()) + (parts.length ? `<span> ${esc(parts.join(" ").toUpperCase())}</span>` : "");
   $("termName").textContent = s.storeName.toLowerCase().replace(/\s+/g, "-") + "@lk:~";
-  $("footStore").textContent = s.storeName.toUpperCase().replace(/\s+/g, "_");
+  $("footStore").textContent = s.storeName.toUpperCase().replace(/\s+/g, " ");
   $("footText").textContent = s.footerText;
   $("footNum").textContent = s.whatsappDisplay;
   $("ctaNum").textContent = s.whatsappDisplay;
